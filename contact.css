@@ -40,7 +40,7 @@
     padding-left: 10px;
     outline: none;
     border: none;
-    background: none;
+    /* background: none; */
     border: 2px solid grey;
    
 }
