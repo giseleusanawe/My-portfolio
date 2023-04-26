@@ -1,16 +1,16 @@
 .about{
     width: 100%;
     padding: 30px 0px;
-    background-color: #191919;
+    background-color: black
 }
-.about img{
-    height: auto;
-    width: 500px;
+/* .about img{
+    height: ;
+    width: ;
+    
   
-}
+} */
 .about-text{
     width: 550px;
-
 }
 .main{
     width: 1130px;
@@ -18,7 +18,8 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+   
 
 }
 .about-text h2{
@@ -44,7 +45,7 @@
     margin-bottom: 45px;
 }
 button{
-    background-color: rgb(173, 255, 47);
+    background-color: rgb(7, 73, 7);
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -53,9 +54,9 @@ button{
     border-radius: 30px;
     transition: .4s;
 }
-button :hover{
-    background: transparent;
-    border: 2px solid rgb(173, 255, 47);
+button:hover{
+    background: black;
+    border: 2px solid rgb(7, 73, 7);
     cursor: pointer;
 }
 nav{
@@ -69,12 +70,13 @@ nav{
     margin-top: 0px;
 }
 span{
-    color: rgb(183, 247, 8);
+    color: rgb(7, 73, 7)
 }
 nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
+;
 }
 nav ul li a{
     color: white;
@@ -82,7 +84,7 @@ nav ul li a{
     font-weight: bold;
     text-transform: capitalize;
 }
-nav ul li a :hover{
-    color: rgb(173, 255, 47);
+nav ul li a:hover{
+    color:rgb(7, 73, 7);
     transition: .4s;
 }
